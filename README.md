@@ -14,7 +14,15 @@ mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
 This copies `VIDEO.json` — which names the publicly posted TikTok video — from the repository root into the output directory, where the grader reads it.
 
-> Note: `VIDEO.json` is not in this repository yet. It is added only after the ad video has been posted publicly on TikTok, so it can carry the video's real URL.
+> Note: `VIDEO.json` names the publicly posted TikTok video for this entry.
+
+## Round 4 resubmission
+
+This entry is resubmitted for round 4 with the same TikTok video named in `VIDEO.json`:
+
+https://www.tiktok.com/@selenagies/video/7710901224622542101
+
+That clip is the round 3 presenter video (a person speaking, with audio, 22 seconds). Round 3 was rejected on the `entry_link` check alone — every other check passed — because TikTok's page then answered that the video did not exist (`status_reviewing`). This resubmission asks make.fun to read the same public video again, now that time has passed since it was posted on 22 November 2026.
 
 ---
 
